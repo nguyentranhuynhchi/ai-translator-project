@@ -1,0 +1,20 @@
+# Loại trừ môi trường ảo Python / Conda
+.conda/
+venv/
+env/
+ai_gradio/
+
+# Loại trừ các file cache của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Loại trừ các file checkpoint nặng của model (nếu có)
+*.safetensors
+*.bin
+*.pth
+
+base_qwen/
+
+adapters/
