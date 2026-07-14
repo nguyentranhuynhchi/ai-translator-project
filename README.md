@@ -12,7 +12,10 @@ Hệ thống được thiết kế theo mô hình **"Một Xác Nhiều Hồn" (
 
 ### Luồng tương tác
 
-![Sơ đồ kiến trúc hệ thống](./architecture.svg)
+<img width="1920" height="617" alt="{48C45EA0-71F5-4AC6-BAD4-EF976D656AAD}" src="https://github.com/user-attachments/assets/b13e0b50-94a2-4928-a83a-27d7e57d4dc6" />
+<img width="1920" height="739" alt="{C9A0ED77-C8F3-46B0-A678-6FB77772B611}" src="https://github.com/user-attachments/assets/e2ba99b9-eb44-4526-96c8-d51920ce8422" />
+<img width="1920" height="422" alt="{764E3491-9D30-4BE6-AF59-C461F37F72D9}" src="https://github.com/user-attachments/assets/6c6795f2-c215-47f0-900e-b2afcd8e86ed" />
+
 
 ### Các bước vận hành
 
