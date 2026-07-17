@@ -1,0 +1,148 @@
+:root {
+    --ink: #1c1c1e;
+    --ink-soft: #57575c;
+    --line: #dcdce0;
+    --paper: #fafaf9;
+    --panel: #ffffff;
+    --accent: #2a3d66;
+    --accent-hover: #1f2e4d;
+}
+
+body, .gradio-container {
+    background-color: var(--paper) !important;
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif !important;
+    color: var(--ink) !important;
+}
+
+.gradio-container {
+    max-width: 880px !important;
+}
+
+/* Thanh tiêu đề dạng toolbar, không phải "hero" căn giữa kiểu landing page */
+.app-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line);
+    padding: 0 0 14px 0;
+    margin-bottom: 22px;
+}
+.app-header h1 {
+    color: var(--ink) !important;
+    font-weight: 600 !important;
+    font-size: 1.15rem !important;
+    letter-spacing: -0.01em;
+    margin: 0 !important;
+}
+.app-header span.tag {
+    color: var(--ink-soft) !important;
+    font-size: 0.8rem !important;
+    font-weight: 400;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+
+.translation-card {
+    background: var(--panel) !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--line) !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    overflow: hidden;
+}
+
+/* Thanh chọn chiều dịch: giống thanh công cụ, không phải hai chữ "bay" giữa trang */
+#lang-header-row {
+    background-color: #f4f4f5 !important;
+    border-bottom: 1px solid var(--line) !important;
+    padding: 10px 16px !important;
+    margin: 0 !important;
+    gap: 8px !important;
+}
+.lang-label {
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--ink-soft) !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.lang-label strong, .lang-label b { color: var(--ink) !important; }
+
+.swap-btn {
+    background-color: var(--panel) !important;
+    border: 1px solid var(--line) !important;
+    color: var(--ink) !important;
+    border-radius: 4px !important;
+    font-weight: 500 !important;
+    font-size: 0.8rem !important;
+    box-shadow: none !important;
+    transition: border-color 0.15s ease, color 0.15s ease !important;
+    max-width: 130px !important;
+    margin: 0 auto !important;
+}
+.swap-btn:hover {
+    border-color: var(--accent) !important;
+    color: var(--accent) !important;
+    background-color: var(--panel) !important;
+    transform: none !important;
+}
+
+.textbox-container {
+    padding: 0 !important;
+}
+.textbox-container textarea {
+    border-radius: 0 !important;
+    border: none !important;
+    border-right: 1px solid var(--line) !important;
+    font-size: 1rem !important;
+    line-height: 1.65 !important;
+    padding: 18px !important;
+    background-color: var(--panel) !important;
+    box-shadow: none !important;
+    transition: background-color 0.15s ease !important;
+}
+.textbox-container textarea:focus {
+    border-color: var(--line) !important;
+    background-color: #fbfbfa !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.output-container textarea {
+    background-color: #fafafa !important;
+    color: var(--ink) !important;
+    border-right: none !important;
+}
+
+.action-row {
+    padding: 12px 16px !important;
+    margin: 0 !important;
+    border-top: 1px solid var(--line) !important;
+    background-color: #fbfbfa !important;
+}
+
+.submit-btn {
+    background: var(--accent) !important;
+    color: #ffffff !important;
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    border-radius: 4px !important;
+    border: none !important;
+    padding: 9px 22px !important;
+    box-shadow: none !important;
+    transition: background-color 0.15s ease !important;
+}
+.submit-btn:hover {
+    background: var(--accent-hover) !important;
+    transform: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+.submit-btn:active {
+    transform: none !important;
+    opacity: 0.9;
+}
